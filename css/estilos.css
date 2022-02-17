@@ -1,0 +1,84 @@
+/* :::::: Desktop ::::: */
+body {
+  background-color: #ffffff;
+}
+
+.box {
+  padding: 0px 1000px 0px 1000px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+hr {
+  height: 3px;
+  background: rgb(10, 1, 1);
+  border: 0;
+}
+
+p {
+  text-align: justify;
+  font-size: 30px;
+  color: #0b0f01;
+}
+
+.videoteste {
+  width: 40%;
+  display: block;
+  margin-bottom: 20px; /*serve p/ dar margem, afastar objetos*/
+}
+
+.box2 {
+  background: rgb(56, 55, 55);
+  padding: 0px 500px 0px 500px;
+  width: 1850px;
+  margin-bottom: 30px;
+  text-alling: center;
+  border: 0.5px rgb(245, 237, 236) solid;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  color: #0b0f01;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  color: inherits;
+}
+
+.box2:hover {
+  background: rgb(95, 4, 4);
+}
+
+button {
+  background-color: rgb(77, 78, 77);
+  font-size: 25px;
+  border-radius: 8px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(95, 4, 4);
+}
+
+/* :::::: Celular ::::::: */
+@media (max-width: 650px) {
+  .videoteste {
+    width: 100%;
+  }
+
+  .titulo {
+    color: rgb(12, 12, 0);
+    font-size: 30px;
+  }
+}
+/* :::::: Tablet :::::: */
+@media (min-width: 651px) and (max-width: 1199px) {
+  .videoteste {
+    width: 80%;
+  }
+}
